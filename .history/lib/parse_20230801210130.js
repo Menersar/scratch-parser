@@ -22,7 +22,7 @@ module.exports = function (input, callback) {
         // result = JSON.parse(input.replace(
 
 
-        // !!!!
+
         result = ExtendedJSON.parse(input.replace(
 
             

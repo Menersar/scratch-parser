@@ -22,8 +22,8 @@ module.exports = function (input, callback) {
         // result = JSON.parse(input.replace(
 
 
-        // !!!!
-        result = ExtendedJSON.parse(input.replace(
+
+        result = JSON.parse(input.replace(
 
             
             /(\\+)(b|u0008)/g,

@@ -29,7 +29,7 @@ module.exports = function (isSprite, input, callback) {
 
 
         // !!!!
-        // ??? Exact reason for using 'sb2', not 'sb3' here? !!!
+        // ??? Exact reason for using 'sb2' and not 'sb3'? !!!
         sb3Errors: validateSb3.errors,
         sb2Errors: validateSb2.errors
     };

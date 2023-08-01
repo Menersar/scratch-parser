@@ -29,9 +29,8 @@ module.exports = function (input, isSprite, callback) {
         .catch(function (err) {
             // return callback(msg + JSON.stringify(err));
 
-
-            // !!!!
-            return callback(msg + err);
+            
+            return callback(msg + JSON.stringify(err));
         });
 
 };

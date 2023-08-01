@@ -19,13 +19,7 @@ module.exports = function (input, callback) {
         // so remove that specific one before continuing.
         // SB2 JSONs and SB3 JSONs have different versions of the
         // character serialized (e.g. \u0008 and \b), strip out both versions
-        // result = JSON.parse(input.replace(
-
-
-        // !!!!
-        result = ExtendedJSON.parse(input.replace(
-
-            
+        result = JSON.parse(input.replace(
             /(\\+)(b|u0008)/g,
             (match, backslash, code) => {
                 // If the number is odd, there is an actual backspace.

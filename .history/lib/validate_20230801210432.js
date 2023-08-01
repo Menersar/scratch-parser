@@ -26,12 +26,13 @@ module.exports = function (isSprite, input, callback) {
 
     var validationErrors = {
         validationError: 'Could not parse as a valid SB2 or SB3 project.',
+        // ??? 'sb2': Why not 'sb3'? !!!
+        sb2Errors: validateSb2.errors,
+        sb3Errors: validateSb3.errors
 
 
-        // !!!!
-        // ??? Exact reason for using 'sb2', not 'sb3' here? !!!
-        sb3Errors: validateSb3.errors,
-        sb2Errors: validateSb2.errors
+        sb2Errors: validateSb2.errors,
+        sb3Errors: validateSb3.errors
     };
 
     callback(validationErrors);

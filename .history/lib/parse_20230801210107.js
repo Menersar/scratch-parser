@@ -22,10 +22,8 @@ module.exports = function (input, callback) {
         // result = JSON.parse(input.replace(
 
 
-        // !!!!
-        result = ExtendedJSON.parse(input.replace(
-
-            
+        
+        result = JSON.parse(input.replace(
             /(\\+)(b|u0008)/g,
             (match, backslash, code) => {
                 // If the number is odd, there is an actual backspace.

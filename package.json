@@ -20,10 +20,10 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "sidekick-json": "git+https://github.com/Menersar/sidekick-json.git",
     "ajv": "6.3.0",
     "jszip": "3.1.5",
-    "pify": "4.0.1"
+    "pify": "4.0.1",
+    "sidekick-json": "git+https://github.com/Menersar/sidekick-json.git"
   },
   "devDependencies": {
     "@commitlint/cli": "7.2.1",

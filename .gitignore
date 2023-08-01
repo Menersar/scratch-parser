@@ -9,3 +9,5 @@ npm-*
 # Testing
 /.nyc_output
 /coverage
+
+/.history

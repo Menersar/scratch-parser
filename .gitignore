@@ -10,4 +10,4 @@ npm-*
 /.nyc_output
 /coverage
 
-/.history
+.history

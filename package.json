@@ -10,7 +10,9 @@
     "url": "https://github.com/LLK/scratch-parser.git"
   },
   "scripts": {
+    "commitmsg:win-mac": "commitlint -e",
     "commitmsg": "commitlint -e $GIT_PARAMS",
+    "commitmsg:win": "commitlint -e %GIT_PARAMS%",
     "test:lint": "eslint . --ext=js",
     "test:unit": "tap test/unit/*.js",
     "test:integration": "tap test/integration/*.js",
